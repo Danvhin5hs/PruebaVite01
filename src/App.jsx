@@ -1,21 +1,13 @@
+import "./App.css"
+import { TwitterFollowCard } from "./TwitterFollowCard"
+
 export function App(){
-    return( 
-    
-     <article /* Forma css directa  style={{display:"flex", alignItems:"center", color: "#fff"}} */ >
-        <header>
-            <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="" style={{width:"100px"}}/>
-            <div>
-                <strong>
-                    Miguel Angel Duran
-                </strong>
-                <span> @Miduran </span>
-            </div>
-        </header>
-        <aside>
-            <button>
-                Seguir
-            </button>
-        </aside>
-     </article>
+    return(
+        <section className="App"> {/* <== eso es lo mismo que fragment React.Fragment para varios elementos repetidos */}
+       <TwitterFollowCard username="dotaringo" name="miguel angel" />
+       <TwitterFollowCard username="ritonasx" name="martino bocucci" />
+       <TwitterFollowCard username="sas40kito" name="Ronny Masa" />
+       <TwitterFollowCard username="mrlotero1993" name="Esteban Micordi" />
+       </section>
     )
 }

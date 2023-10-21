@@ -1,0 +1,58 @@
+
+.tw-followCard{
+    display: flex;
+    color: white;
+   
+    flex-direction: column;
+}
+
+.tw-followCard-header  {
+    display: flex;
+    margin-left: 3em;
+}
+.tw-followCard-avatar{
+    display: flex;
+    border-radius: 50%;
+}
+
+.tw-followCard-info{
+    margin-left: 0.5em;
+    display: flex; /* Add display: flex; */
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.tw-followCard-infoStrong{
+ display: auto;
+}
+.tw-followCard-infoUserName{
+
+    display: flex ;
+    flex-direction: column;
+  
+}
+
+aside{
+display: block
+}
+.tw-followCard-button{
+   
+   display: flex;
+   
+}
+
+
+
+
+img{
+    width: 5em;
+}
+
+.App{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+   gap: 2em;
+}
